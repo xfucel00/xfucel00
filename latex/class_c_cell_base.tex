@@ -1,0 +1,239 @@
+\hypertarget{class_c_cell_base}{}\doxysection{C\+Cell\+Base Class Reference}
+\label{class_c_cell_base}\index{CCellBase@{CCellBase}}
+
+
+\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} class.  
+
+
+
+
+{\ttfamily \#include $<$C\+Cell\+Base.\+h$>$}
+
+
+
+Inheritance diagram for C\+Cell\+Base\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_cell_base__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Cell\+Base\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{class_c_cell_base__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_cell_base_ac73a0d2d8987006b72a1868523199f40}{C\+Cell\+Base}} (\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} $\ast$a\+Next=nullptr, int a\+Extra\+Int=0)
+\begin{DoxyCompactList}\small\item\em Node constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_c_cell_base_a3026a038fa319365f2dbc6222aa428fd}{$\sim$\+C\+Cell\+Base}} () noexcept(\mbox{\hyperlink{_c_cell_base_8h_aeddad0956c408a4277da2aaba0a8e8b7}{K\+C\+Cell\+Dtor\+No\+Exception}})
+\begin{DoxyCompactList}\small\item\em Node destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} $\ast$ \mbox{\hyperlink{class_c_cell_base_a28aedfbad6fee709e2f6045b77c92078}{Set\+Next\+Item}} (\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} $\ast$a\+Next) const
+\begin{DoxyCompactList}\small\item\em setter for next node \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} $\ast$ \mbox{\hyperlink{class_c_cell_base_a21bcbbfcee482ebe16bfdf043f9024c8}{Next\+Item}} () const
+\begin{DoxyCompactList}\small\item\em getter -\/ return next node address \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_c_cell_base_a56b37301169330c03e22b37ea425eb00}{Set\+Extra\+Int}} (const int a\+Extra\+Int) const
+\begin{DoxyCompactList}\small\item\em setter for extra value \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_c_cell_base_a59af8a0f9599bf9e434bb953e7501e46}{Extra\+Int}} () const
+\begin{DoxyCompactList}\small\item\em getter for extra value \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{class_c_cell_base_a8a84cfa295d31a5779b96511aa66144e}{ID}} () const
+\begin{DoxyCompactList}\small\item\em ID getter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_cell_base_a1be2f1666fa43a1afd3a55be4a46a2bd}{C\+Cell\+Base}} (const \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} \&a\+Item)
+\begin{DoxyCompactList}\small\item\em disallow implicit generated copy c\textquotesingle{}tor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Class\+Info$<$ \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} $>$ \mbox{\hyperlink{class_c_cell_base_a219d793ed5293dadc1ff6713f44c816e}{i\+Instance\+Info}}
+\begin{DoxyCompactList}\small\item\em Instance of the class info for usage statistics. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} $\ast$ \mbox{\hyperlink{class_c_cell_base_aa641f8ad9ec6ae6ca8e8b44d19984bb0}{i\+Next}}
+\begin{DoxyCompactList}\small\item\em intrusive attribute -\/ location of next node \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_c_cell_base_a8f12d580c71072c8654519154d87fe13}{i\+Extra\+Int}}
+\begin{DoxyCompactList}\small\item\em intrusive attribute, useful for some projects only\+: multiset, priority queue \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} class. 
+
+Definition of linked list class. There are defined all common methods and attributes. 
+
+Definition at line 28 of file C\+Cell\+Base.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_cell_base_a1be2f1666fa43a1afd3a55be4a46a2bd}\label{class_c_cell_base_a1be2f1666fa43a1afd3a55be4a46a2bd}} 
+\index{CCellBase@{CCellBase}!CCellBase@{CCellBase}}
+\index{CCellBase@{CCellBase}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{CCellBase()}{CCellBase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily C\+Cell\+Base\+::\+C\+Cell\+Base (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} \&}]{a\+Item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+disallow implicit generated copy c\textquotesingle{}tor 
+
+\mbox{\Hypertarget{class_c_cell_base_ac73a0d2d8987006b72a1868523199f40}\label{class_c_cell_base_ac73a0d2d8987006b72a1868523199f40}} 
+\index{CCellBase@{CCellBase}!CCellBase@{CCellBase}}
+\index{CCellBase@{CCellBase}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{CCellBase()}{CCellBase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily C\+Cell\+Base\+::\+C\+Cell\+Base (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} $\ast$}]{a\+Next = {\ttfamily nullptr},  }\item[{int}]{a\+Extra\+Int = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Node constructor. 
+
+c\textquotesingle{}tors 
+
+Definition at line 41 of file C\+Cell\+Base.\+h.
+
+\mbox{\Hypertarget{class_c_cell_base_a3026a038fa319365f2dbc6222aa428fd}\label{class_c_cell_base_a3026a038fa319365f2dbc6222aa428fd}} 
+\index{CCellBase@{CCellBase}!````~CCellBase@{$\sim$CCellBase}}
+\index{````~CCellBase@{$\sim$CCellBase}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{$\sim$CCellBase()}{~CCellBase()}}
+{\footnotesize\ttfamily virtual C\+Cell\+Base\+::$\sim$\+C\+Cell\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Node destructor. 
+
+d\textquotesingle{}tor  To be correctly destructed, the object must point to nullptr. \begin{DoxyAttention}{Attention}
+It should generate exception (if not point to nullptr). 
+\end{DoxyAttention}
+
+
+Definition at line 51 of file C\+Cell\+Base.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_cell_base_a59af8a0f9599bf9e434bb953e7501e46}\label{class_c_cell_base_a59af8a0f9599bf9e434bb953e7501e46}} 
+\index{CCellBase@{CCellBase}!ExtraInt@{ExtraInt}}
+\index{ExtraInt@{ExtraInt}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{ExtraInt()}{ExtraInt()}}
+{\footnotesize\ttfamily int C\+Cell\+Base\+::\+Extra\+Int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+getter for extra value 
+
+
+
+Definition at line 84 of file C\+Cell\+Base.\+h.
+
+\mbox{\Hypertarget{class_c_cell_base_a8a84cfa295d31a5779b96511aa66144e}\label{class_c_cell_base_a8a84cfa295d31a5779b96511aa66144e}} 
+\index{CCellBase@{CCellBase}!ID@{ID}}
+\index{ID@{ID}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{ID()}{ID()}}
+{\footnotesize\ttfamily size\+\_\+t C\+Cell\+Base\+::\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ID getter. 
+
+\begin{DoxyReturn}{Returns}
+Unique instance ID 
+\end{DoxyReturn}
+
+
+Definition at line 93 of file C\+Cell\+Base.\+h.
+
+\mbox{\Hypertarget{class_c_cell_base_a21bcbbfcee482ebe16bfdf043f9024c8}\label{class_c_cell_base_a21bcbbfcee482ebe16bfdf043f9024c8}} 
+\index{CCellBase@{CCellBase}!NextItem@{NextItem}}
+\index{NextItem@{NextItem}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{NextItem()}{NextItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}}$\ast$ C\+Cell\+Base\+::\+Next\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+getter -\/ return next node address 
+
+
+
+Definition at line 73 of file C\+Cell\+Base.\+h.
+
+\mbox{\Hypertarget{class_c_cell_base_a56b37301169330c03e22b37ea425eb00}\label{class_c_cell_base_a56b37301169330c03e22b37ea425eb00}} 
+\index{CCellBase@{CCellBase}!SetExtraInt@{SetExtraInt}}
+\index{SetExtraInt@{SetExtraInt}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{SetExtraInt()}{SetExtraInt()}}
+{\footnotesize\ttfamily void C\+Cell\+Base\+::\+Set\+Extra\+Int (\begin{DoxyParamCaption}\item[{const int}]{a\+Extra\+Int }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+setter for extra value 
+
+
+
+Definition at line 79 of file C\+Cell\+Base.\+h.
+
+\mbox{\Hypertarget{class_c_cell_base_a28aedfbad6fee709e2f6045b77c92078}\label{class_c_cell_base_a28aedfbad6fee709e2f6045b77c92078}} 
+\index{CCellBase@{CCellBase}!SetNextItem@{SetNextItem}}
+\index{SetNextItem@{SetNextItem}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{SetNextItem()}{SetNextItem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}}$\ast$ C\+Cell\+Base\+::\+Set\+Next\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}} $\ast$}]{a\+Next }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+setter for next node 
+
+
+
+Definition at line 66 of file C\+Cell\+Base.\+h.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_cell_base_a8f12d580c71072c8654519154d87fe13}\label{class_c_cell_base_a8f12d580c71072c8654519154d87fe13}} 
+\index{CCellBase@{CCellBase}!iExtraInt@{iExtraInt}}
+\index{iExtraInt@{iExtraInt}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{iExtraInt}{iExtraInt}}
+{\footnotesize\ttfamily int C\+Cell\+Base\+::i\+Extra\+Int\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [private]}}
+
+
+
+intrusive attribute, useful for some projects only\+: multiset, priority queue 
+
+
+
+Definition at line 32 of file C\+Cell\+Base.\+h.
+
+\mbox{\Hypertarget{class_c_cell_base_a219d793ed5293dadc1ff6713f44c816e}\label{class_c_cell_base_a219d793ed5293dadc1ff6713f44c816e}} 
+\index{CCellBase@{CCellBase}!iInstanceInfo@{iInstanceInfo}}
+\index{iInstanceInfo@{iInstanceInfo}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{iInstanceInfo}{iInstanceInfo}}
+{\footnotesize\ttfamily Class\+Info$<$\mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}}$>$ C\+Cell\+Base\+::i\+Instance\+Info\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Instance of the class info for usage statistics. 
+
+
+
+Definition at line 30 of file C\+Cell\+Base.\+h.
+
+\mbox{\Hypertarget{class_c_cell_base_aa641f8ad9ec6ae6ca8e8b44d19984bb0}\label{class_c_cell_base_aa641f8ad9ec6ae6ca8e8b44d19984bb0}} 
+\index{CCellBase@{CCellBase}!iNext@{iNext}}
+\index{iNext@{iNext}!CCellBase@{CCellBase}}
+\doxysubsubsection{\texorpdfstring{iNext}{iNext}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}}$\ast$ C\+Cell\+Base\+::i\+Next\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [private]}}
+
+
+
+intrusive attribute -\/ location of next node 
+
+
+
+Definition at line 31 of file C\+Cell\+Base.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_c_cell_base_8h}{C\+Cell\+Base.\+h}}\end{DoxyCompactItemize}

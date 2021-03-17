@@ -1,0 +1,251 @@
+~\newline
+
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{5}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Projekt B\+P\+C-\/\+P\+PC  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ 2020  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Hodnocení zadání, C\+Cell(max 7b)  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Hodnocení hlavička max(13b)  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Hodnocení projektu max(20b)   }\\\cline{1-5}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Projekt B\+P\+C-\/\+P\+PC  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ 2020  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Hodnocení zadání, C\+Cell(max 7b)  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Hodnocení hlavička max(13b)  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ Hodnocení projektu max(20b)   }\\\cline{1-5}
+\endhead
+Autor 1\+:  &{\ttfamily 211139}, {\bfseries{Červený}} Patrik, \href{mailto:xcerve27@stud.feec.vutbr.cz}{\texttt{ xcerve27@stud.\+feec.\+vutbr.\+cz}}  &7  &3+10  &\\\cline{1-5}
+Autor 2\+:  &{\ttfamily 211144}, {\bfseries{Fučela}} Peter, \href{mailto:xfucel00@stud.feec.vutbr.cz}{\texttt{ xfucel00@stud.\+feec.\+vutbr.\+cz}}  &7  &3+9  &\\\cline{1-5}
+Autor 3\+:  &{\ttfamily 211131}, {\bfseries{Bečár}} Tomáš, \href{mailto:xbecar00@stud.feec.vutbr.cz}{\texttt{ xbecar00@stud.\+feec.\+vutbr.\+cz}}  &7  &3+9  &\\\cline{1-5}
+Autor 4\+:  &{\ttfamily 211138}, {\bfseries{Černík}} Michal, \href{mailto:xcerni12@stud.feec.vutbr.cz}{\texttt{ xcerni12@stud.\+feec.\+vutbr.\+cz}}  &7  &2  &\\\cline{1-5}
+Datum zadání\+:  &16.\+11.\+2020  &&&\\\cline{1-5}
+Datum finálního odevzdání\+:  &3.\+1.\+2021 (včetně); odevzdání prvních dvou částí bude upřesněno na cvičeních  &&&\\\cline{1-5}
+\end{longtabu}
+
+
+~\newline
+~\newline
+
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]\mbox{[}zad\mbox{]} Zacnete odstranovat chyby ktere Vam hlasi Doxygen pri kompilaci dokumentace. Jinak ale asi zatim to nejlepsi zadani co jsem videl. Chvalim Vas chval, chval. Jen prosim neusnete na vavrinech.\end{DoxyRefDesc}
+
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000002}{Bug}}]\mbox{[}zad\mbox{]} panove\+: Černík a Bečár. Je to lepsi ale zkuste nebyt priste v komitech posledni. \+:-\/)\end{DoxyRefDesc}
+
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000003}{Bug}}]\mbox{[}hla\mbox{]} Pane Cernik davam Vam pro vystrahu 2 bodu a pokud nezacnete pracovat tak to byly posledni body co jste za tento projekt dostal.\end{DoxyRefDesc}
+
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000004}{Bug}}]\mbox{[}hla\mbox{]} bugy ze zadani uz meli byt davno opravene na bugfixy, sup sup.\end{DoxyRefDesc}
+
+
+\doxysubsection*{Úvodní poznámky}
+
+V následujícím textu je vzor zadání. Tučně jsou označeny prvky, které se mohou lišit obsahem, ale které platí obecně pro třídu kontejner. Tyto pasáže je nutné nahradit upraveným textem s významem pro konkrétní kontejner (tyto vámi upravené části zůstanou zvýrazněny). V tomto okamžiku nás nezajímá implementace, (tedy konkrétní realizace -\/ názvy proměnných a jak uvnitř fungují jednotlivé metody), pouze u metod a operátorů vždy slovně popište, jak si představujete jejich činnost. {\itshape Činnost popište tak, aby byl popis dostatečný k realizaci} = jak byste ji zadali externímu programátorovi, aby jasně věděl jak se má metoda/funkce chovat. U metod a operátorů bude tedy uvedeno\+: název, popis činnosti, popis použití, popis smyslu a významu funkce (anotace/synopsis). Tento popis se později stane součástí komentáře/helpu ve zdrojovém textu (Doxygen).
+
+U každé metody/funkce uveďte monogram jednoho z autorů, který daný kód bude realizovat (v projektu jsou již orientační označení {\itshape autor x} -\/ toto rozdělení můžete libovolně měnit). Každý student by měl realizovat část každého bodu zadání (pokud to zadání umožňuje). Některé části označené {\itshape autor 1} patří k důležitějším částem projektu (konstruktory, operátor=, streamy), které využívají i ostatní části, a proto je potřeba je udělat přednostně a kvalitně. Proto by bylo vhodné, aby byly realizovány těmi lepšími ve skupině.
+
+Uvedené poznámky (Note) v odevzdávaném zadání nebudou (= {\bfseries{vymažte je}} ), slouží pouze jako doporučení a upřesnění. U některých variant zadání kontejneru mohou nastat problémy s tím, že daná vlastnost (metoda) kontejneru nemá {\itshape \char`\"{}nejlogičtější\char`\"{}} využití – zkuste si nějaké (byť méně logické) využití vymyslet (z hlediska programátorské praxe je to samozřejmě špatně, protože metody by měly být logické a snadno chápatelné, ale my zde dáme prioritu procvičení, výuce a použití daného typu metod). Každý z autorů by měl napsat alespoň jednu metodu příp. operátor daného typu.
+
+Vývoj projektu je možný v libovolném prostředí a kompilátoru C++ (\href{http://gcc.gnu.org/}{\texttt{ g++}}, \href{http://clang.llvm.org/}{\texttt{ clang++}}, \href{https://developer.apple.com/xcode/download/}{\texttt{ X\+Code}}), ale referenčním překladačem bude \href{http://www.visualstudio.com/}{\texttt{ Microsoft Visual Studio 2019}}.
+
+Preferovaným jazykem C++ {\itshape zdrojových textů} je angličtina, případně čeština bez diakritiky. Pro dokumentaci ve zdrojových souborech tedy používejte český jazyk bez háčků a čárek (A\+S\+C\+II znaky). Popřípadě používejte jazyk anglický (pokud ho umíte na odpovídající úrovni).
+
+{\bfseries{Pokud něčemu nerozumíte ptejte se (především cvičících).}}
+
+~\newline
+~\newline
+
+
+\doxysubsection*{Zadání}
+
+\doxysubsubsection*{Popis datové struktury a výběr datových typů pro realizaci projektu}
+
+V rámci projektu se bude tvořit objektová knihovna zajišťující kontejnerové funkce pro prvky nesoucí hodnotu zvoleného typu. Vnitřní implementace kontejneru bude realizována jako tzv. \href{https://en.wikipedia.org/wiki/Linked_list}{\texttt{ jednosměrně vázaný lineární seznam (linked list)}} tj. seznam prvků s hodnotami. Tato datová struktura umožňuje časově efektivní přidávání, odebíraní a vyhledávání prvků. {\itshape Snažte se tedy realizovat paměťově i časově úspornou implementaci kontejneru!} Prvky vkládané do datové struktury {\ttfamily \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}} budou instance třídy {\ttfamily C\+Cell}.
+
+Třída {\ttfamily C\+Cell} bude prvkem kontejneru. Ve výsledném projektu bude vytvořený kontejner schopen pracovat minimálně se čtyřmi různými implementacemi třídy {\ttfamily C\+Cell}. První dvě třídy {\ttfamily C\+Cell} Vám již byly dodány v rámci zadání a realizují zapouzdření typu {\ttfamily bool} a výčtového typu {\ttfamily T\+Week\+Day} a je v rámci řešení projektu zakázána jejich modifikace. Podle těchto příkladů v rámci projektu vytvoříte dvě další třídy {\ttfamily C\+Cell}.
+
+Třída {\ttfamily C\+Container} je dodána v minimální podobě a v rámci projektu bude nutné ji dopracovat (přejmenovat, doplnit její funkčnost). Třída {\ttfamily \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}}} bude sloužit jako pomocná, zajišťující tvorbu vázaného seznamu, a z ní bude dědit třída {\ttfamily C\+Cell}. Třída {\ttfamily \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}}} bude obsahovat proměnnou {\ttfamily i\+Extra\+Int} (v {\ttfamily C\+Cell} realizující např. klíč či hodnotu). Zapouzdřovaná hodnota bude reprezentována pomocí prvku {\ttfamily i\+Value} třídy {\ttfamily C\+Cell}. Pomocné třídy budou nedílnou součástí projektu ale v dalším budeme zmiňovat pouze {\ttfamily C\+Cell}.
+
+\begin{DoxyAttention}{Attention}
+Kontejner budete realizovat bez podpory kontejnerových typů knihovny S\+TL nebo jiných knihoven třetích stran. Prvky kontejneru budou realizovány pomocí seznamu typu lineární seznam a jeho prvky budou instance třídy {\ttfamily C\+Cell}. Kontejner bude realizován tak, aby uvnitř umožňoval práci s lineárními seznamy obecného rozměru. Kontejner musí správně pracovat pro všechny čtyři vytvořené třídy {\ttfamily C\+Cell}, ale nemusí s nimi pracovat současně v rámci jednoho překladu. ~\newline
+ {\itshape Pozor! Nedodržení těchto podmínek znamená nesplnění základních požadavků zadání a hodnocení takového projektu bude bohužel 0 bodů!!!}
+\end{DoxyAttention}
+\DoxyHorRuler{0}
+
+
+~\newline
+
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]U položky 3 definujte chování kontejneru. Datové typy z bodu 1 a 2 specifikujte též v prvním bodu zadání kontejneru.\end{DoxyRefDesc}
+
+
+První Vámi realizovaná třída {\ttfamily \mbox{\hyperlink{namespace_c_cell__float}{C\+Cell\+\_\+float}}} bude zapouzdřovat jeden ze základních typů, který si zvolte v části 1\+: \begin{DoxyRefDesc}{Bugfix}
+\item[\mbox{\hyperlink{bugfix__bugfix000012}{Bugfix}}]\mbox{[}zad\mbox{]} replaced {\ttfamily C\+Cell\+\_\+\+T\+Y\+P1} with {\ttfamily \mbox{\hyperlink{namespace_c_cell__float}{C\+Cell\+\_\+float}}}\end{DoxyRefDesc}
+
+
+{\itshape Zadání část 1\+: základní datové typy (mimo bool), (zvolte jednu z možností)\+:}
+\begin{DoxyItemize}
+\item Jeden z {\bfseries{reálných typů}}\+: {\ttfamily float}
+\end{DoxyItemize}
+
+Druhá Vámi realizovaná třída {\ttfamily \mbox{\hyperlink{namespace_c_cell___t_color_r_g_b}{C\+Cell\+\_\+\+T\+Color\+R\+GB}}} bude zapouzdřovat jeden ze složených datových typů, který si zvolte v části 2\+: \begin{DoxyRefDesc}{Bugfix}
+\item[\mbox{\hyperlink{bugfix__bugfix000013}{Bugfix}}]\mbox{[}zad\mbox{]} replaced {\ttfamily C\+Cell\+\_\+\+T\+Y\+P2} with {\ttfamily \mbox{\hyperlink{namespace_c_cell___t_color_r_g_b}{C\+Cell\+\_\+\+T\+Color\+R\+GB}}}\end{DoxyRefDesc}
+
+
+{\itshape Zadání část 2\+: složené datové typy (třídy, struktury, pole) (mimo T\+Week\+Day -\/ Dny v týdnu), (zvolte jednu z možností)\+:}
+\begin{DoxyItemize}
+\item {\bfseries{Barevná informace}} (R\+GB složky)
+\end{DoxyItemize}
+
+Třetí Vámi realizovaná třída bude samotný kontejner pracující s prvky třídy {\ttfamily C\+Cell}. Charakter a funkci kontejneru si zvolte v části 3\+:
+
+{\itshape Zadání část 3\+: typ kontejneru implementován pomocí lineárního seznamu (zvolte jednu z možností)\+:}
+\begin{DoxyItemize}
+\item {\bfseries{Prioritní fronta}} – jeden vstup, jeden výstup, architektura F\+I\+FO. Prvky vstupují do fronty vždy dodatečnou s informací o své prioritě, prvky vystupují z fronty v pořadí určeném prioritou a při stejné prioritě je pořadí prvků na výstupu shodné s pořadím prvků na vstupu.
+\end{DoxyItemize}
+
+\DoxyHorRuler{0}
+
+
+~\newline
+
+
+\doxysubsubsection*{Vzorový text zadání\+:}
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000002}{Todo}}]Od tohoto místa dále nahraďte tučně zapsané texty vhodnou modifikací pro Vaše zadání (značky pro zvýraznění bold neodstraňujte). Nezvýrazněný text nemažte -\/ jedná se o povinné body zadání!!! U jednotlivých metod popište činnost tak, aby podle ní bylo jasné {\itshape co bude metoda dělat} (tj. jak na základě vstupů vznikne výsledek). Dále viz úvodní poznámky.\end{DoxyRefDesc}
+
+
+Navrhněte třídu {\ttfamily {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}}}, která bude obsahovat prvky třídy {\ttfamily C\+Cell} a realizovat knihovnu pro práci s vybraným jednoduchým typem ({\bfseries{float}}) a složeným datovým typem ({\bfseries{T\+Color\+R\+GB}}), který bude zapouzdřen ve třídě {\ttfamily C\+Cell}. Třída {\ttfamily C\+Cell} (společně s dalšími pomocnými datovými typy) je připravena pro práci s lineárním seznamem a její využití při tvorbě kontejneru je povinnou součástí projektu. Celá knihovna bude realizovat činnost {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}} podle následujících bodů. Pokud je to možné, bude splňovat očekávané chování (podobné jako u jednoduchých typů\+: {\ttfamily int}, {\ttfamily float}, ...). Navržená třída {\ttfamily {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}}} splní následující\+:
+
+
+\begin{DoxyEnumerate}
+\item Třída {\ttfamily C\+Cell} zapouzdřuje dva dodané ({\ttfamily bool}, {\ttfamily T\+Week\+Day}) a dva zvolené datové typy\+: jeden základní\+: {\bfseries{float}} a druhý složený\+: {\bfseries{T\+Color\+R\+GB}} realizovaný ako štruktúra s troma parametrami, {\bfseries{red}}, {\bfseries{green}}, {\bfseries{blue}} typu {\bfseries{int}}. Tyto definované třídy budou vytvořeny ve svých jmenných prostorech\+: {\bfseries{\mbox{\hyperlink{namespace_c_cell__float}{C\+Cell\+\_\+float}}, \mbox{\hyperlink{namespace_c_cell___t_color_r_g_b}{C\+Cell\+\_\+\+T\+Color\+R\+GB}}}}. \begin{DoxyNote}{Note}
+Zde uveďte za N\+A\+Z\+E\+V\+\_\+\+T\+Y\+PU typy zvolené pro třídy z části zadání č.1 a č.2. 
+
+Pro oba nové datové typy (z části zadání č.1 a č.2) uveďte, jaký typ budou zapouzdřovat (u výčtového typu definujte i jednotlivé názvy hodnot).
+\end{DoxyNote}
+
+\item Vznik objektu třídy {\ttfamily {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}}}\+:
+\begin{DoxyItemize}
+\item implicitní konstruktor {\bfseries{ktorý vytvorí prázdnu frontu (head = nullptr, size = 0)}}, ({\bfseries{Peter Fucela}} )
+\item kopykonstruktor -\/ vytvoří vlastní kopii všech dat, ale bude mít unikátní {\ttfamily i\+ID}. ({\bfseries{Michal Cernik}} )
+\item konverzní konstruktor z {\ttfamily C\+Cell}, {\bfseries{ktorý vytvorí priritnú frontu do ktorej zaradí daný prvok C\+Cell s prioritou 0}} ({\bfseries{Peter Fucela}})
+\item konverzní konstruktor z typu {\bfseries{size\+\_\+t, ktorý vytvorí prioritnú frontu do ktorej zaradí počet prvkov C\+Cell odpovedajúci hodnote zadaného parametru, pričom prvky C\+Cell budú nastavené na defaultné hodnoty a priorita každého prvku bude oproti predchádzajúcemu inkrementovaná o 1 (prvý má prioritu 0)}} ( {\bfseries{Cerveny Patrik}} )
+\item konstruktor zo stvorice hodnot reprezentujících {\bfseries{pole prvků C\+Cell, jeho dlzku a pole priorít a tiež jeho dlzku, ktorý vytvorí frontu kde postupne zaradí prvky C\+Cell z poľa s príslušnou prioritou. Pole prvků a priorit budou mít stejnou velikost.}} ( {\bfseries{Cerveny Patrik}} )
+\item konstruktor na základě C řetězce ({\itshape const char $\ast$}), jehož formát bude {\bfseries{hodnoty jednotlivých}} {\ttfamily C\+Cell} {\bfseries{ktoré sú oddelené dvojbodkou. Priorita je zadaná pred príslušnym C\+Cellom v hranatých zátvorkách. Řetězec bude mít tvar\+: \char`\"{}$<$\mbox{[}i\+Priority\mbox{]}\+C\+Cell\+:\mbox{[}i\+Priority\mbox{]}\+C\+Cell\+: ...\+:\mbox{[}i\+Priority\mbox{]}\+C\+Cell$>$ \char`\"{}. Konkrétne pre \mbox{\hyperlink{namespace_c_cell___t_color_r_g_b}{C\+Cell\+\_\+\+T\+Color\+R\+GB}} potom \char`\"{}$<$\textbackslash{}\mbox{[}25\mbox{]}(0,0,0)\+:\textbackslash{}\mbox{[}35\mbox{]}(25,25,25)\+:\textbackslash{}\mbox{[}12\mbox{]}(255,255,255)$>$\char`\"{}}} ( {\bfseries{Peter Fucela}} ) \begin{DoxyRefDesc}{Bugfix}
+\item[\mbox{\hyperlink{bugfix__bugfix000014}{Bugfix}}]\mbox{[}zad\mbox{]} changed format of string\end{DoxyRefDesc}
+
+\end{DoxyItemize}
+\item Počet vzniklých a aktuálních instancí třídy {\ttfamily {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}}} bude možné sledovat za pomoci statických proměnných třídy ({\ttfamily i\+Total}, {\ttfamily i\+Aktual}) a bude možné je získat voláním statických metod {\ttfamily Total} a {\ttfamily Aktual} (na rozdíl od {\ttfamily C\+Cell} při tvorbě kontejneru nepoužívejte třídu {\ttfamily Class\+Info})(Na cvičení bylo řečeno, že mužeme použít třídu class\+Info). Každá instance třídy {\ttfamily {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}}} bude obsahovat privátní proměnnou {\ttfamily i\+ID} sloužící k identifikaci instance (odpovídající pořadí vzniku). Identifikační hodnota instance musí být přístupná mimo třídu pomocí vhodné metody -\/ {\ttfamily I\+D()}. ( {\bfseries{Michal Cernik}} )
+\item Zánik objektu -\/ destruktor {\bfseries{prioritnej fronty}} bude implementován s mechanizmem odpočtu aktivních prvků {\ttfamily i\+Aktual}. Dynamické členské prvky {\bfseries{odalokuje, urobí testy a nastaví Head fronty na nullptr}}. ( {\bfseries{Peter Fucela}} )
+\item Budou implementovány operátory {\bfseries{prioritnej fronty}} s příslušnými činnostmi\+:
+\begin{DoxyItemize}
+\item operátor \+\_\+\+\_\+=\+\_\+\+\_\+ pro přiřazení, {\bfseries{vytvářející kopii hodnot (mimo {\ttfamily i\+ID}, které si ponechá původní). Původní hodnoty ve výsledné proměnné přepíše, dynamické odalokuje.}} ({\bfseries{Peter Fucela}})
+\item operátor {\bfseries{-\/}} jako unární operátor {\bfseries{ktorý vráti frontu na ktorej každý prvok C\+Cell aplikuje operátor -\/(inverzi)}} ( {\bfseries{Peter Fucela}} )
+\item operátor {\bfseries{!}} jako unární operátor {\bfseries{ktorý vráti true ak je fronta prázdna (head, tail = nullptr), inak false}}
+\item operátor {\bfseries{–}} jako binární operátor {\bfseries{ktorý aplikuje inverzi na pravú frontu a zaradí ju do ľavej fronty}} ( {\bfseries{Peter Fucela}} ) //mozno by sa dalo implementovat ze navzajom inverzne prvky s rovnakou prioritou sa navzájom vyhodia alebo sa jeden vyhodí a druhý nastaví na default, premyslím pri implementacii
+\item operátor {\bfseries{+}} jako binární operátor {\bfseries{plus pre súčet kontajnerov, ktorý bude fungovať tak, že vráti frontu ktorá obsahuje prvky oboch front zoradené podľa priority s tým, že prvky s rovnakou prioritou budú radené najprv z fronty na ľavej strane operátora, ale poradie v rámci jednotlivých front ostáva zachované}} ( {\bfseries{Peter Fucela}} )
+\item operátor {\bfseries{+=}} realizující a = a+b; {\bfseries{tak, že postupne zaradí prvky z fronty b podľa priority do fronty a s tým, že prvky s rovnakou prioritou budú radené najprv z a, potom z b ale poradie v rámci jednotlivých front ostáva zachované}} ( {\bfseries{Peter Fucela}} )
+\end{DoxyItemize}
+\end{DoxyEnumerate}
+\begin{DoxyItemize}
+\item logické operátory
+\begin{DoxyItemize}
+\item {\ttfamily operator==} ktorý vráti {\bfseries{true}} v prípade že fronty obsahujú rovnaký počet prvkov C\+Cell s rovnakou prioritou a rovnakým obsahom, inak vráti {\bfseries{false}}
+\item {\ttfamily operator!=} ktorý vráti {\bfseries{false}} v prípade že fronty obsahujú rovnaký počet prvkov C\+Cell s rovnakou prioritou a rovnakým obsahom, inak vráti {\bfseries{true}}
+\item {\ttfamily operator$>$=} ktorý vráti {\bfseries{true}} v prípade že vrchný prvok fronty na ľavej strane operatoru má väčšiu alebo rovnakú prioritu ako vrchný prvok fronty na pravej strane operatoru, inak vráti {\bfseries{false}}
+\item {\ttfamily operator$<$=} ktorý vráti {\bfseries{true}} v prípade že vrchný prvok fronty na ľavej strane operatoru má menšiu alebo rovnakú prioritu ako vrchný prvok fronty na pravej strane operatoru, inak vráti {\bfseries{false}}
+\end{DoxyItemize}
+
+\begin{DoxyRefDesc}{Bugfix}
+\item[\mbox{\hyperlink{bugfix__bugfix000015}{Bugfix}}]\mbox{[}zad\mbox{]} deleted redundant text\end{DoxyRefDesc}
+
+\begin{DoxyItemize}
+\item Konverzní operátor {\bfseries{na size\+\_\+t, který bude reprezentovat počet prvků kontejneru}}. ( {\bfseries{Cerveny Patrik}} )
+\item Nečlenský operátor, využívající \+\_\+\+\_\+\char`\"{}friend\char`\"{}\+\_\+\+\_\+ vlastností realizující {\bfseries{součet C\+Cell}} a kontejneru. ( {\bfseries{Peter Fucela}} )
+\item Unární operátor++, který přidá prvek do fronty. ({\bfseries{Michal Cernik}})
+\item Unární operátor--, který odebere prvek z fronty. ({\bfseries{Michal Cernik}})
+\end{DoxyItemize}
+\end{DoxyItemize}
+\begin{DoxyEnumerate}
+\item Standardní vstup a výstup z instance třídy {\ttfamily {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}}} bude realizován pomocí streamů (realizovaný \char`\"{}friend\char`\"{} funkcí s využitím jejích vlastností) – přetížením operátorů $<$$<$ a $>$$>$ ve stejném formátu navrženém pro konstruktor z {\ttfamily char $\ast$} (tj. {\bfseries{každý prvok C\+Cell bude oddelený bodkočiarkou(středníkem)}}). ( {\bfseries{Peter Fucela}} )
+\item Budou realizovány privátní a veřejné metody\+:
+\begin{DoxyItemize}
+\item veřejná metoda {\bfseries{size\+Of}} pro zjištění počtu prvků v {\bfseries{prioritnej fronte}}. ( {\bfseries{Peter Fucela}} )
+\item Charakteristické metody pro danú {\bfseries{prioritnú frontu}} s názvami ( {\bfseries{Peter Fucela}} )
+\begin{DoxyItemize}
+\item {\bfseries{is\+Empty}} ktorá vracia boolean podľa toho či je fronta prázdna alebo nie
+\item {\bfseries{empty}} ktorá vyprázdni frontu
+\item {\bfseries{enqueue}} ktorá umiestni zadaný prvok {\bfseries{C\+Cell}} pred prvý prvok s nižšiou prioritou (nižšia priorita je reprezentovaná vyšším čislom)
+\item {\bfseries{dequeue}} ktorá odstráni z fronty prvok s najvyššou prioritou
+\item {\bfseries{top}} ktorá slúži k prístupu k prvku s najvyššou prioritou, bez toho aby ho odstránil //alebo s tym aby ho odstranil?
+\item {\bfseries{is\+Present}} ktorá vracia boolean podľa toho či sa zadaný C\+Cell nachádza vo fronte alebo nie
+\item {\bfseries{get}} ktorá vráti kópiu prvku na zadanej pozícii
+\item {\bfseries{set}} ktorá upraví prvok C\+Cell na zadanej pozícii na žiadanú hodnotu
+\end{DoxyItemize}
+\item Metoda {\ttfamily Usage()}, která vrátí {\ttfamily double} hodnotu \mbox{[}v procentech\mbox{]} reprezentující efektivnost využití paměti při použití lineárního seznamu prvků {\ttfamily C\+Cell} v poměru k reprezentaci kontejneru pomocí standardního C pole stejného počtu prvků jako je typ zapouzdřený ve třídě {\ttfamily C\+Cell}. ( {\bfseries{Peter Fucela}} )
+\item Metoda {\bfseries{copy\+Top}}, která {\bfseries{skopíruje vrchný prvok fronty zadaný počet krát a to buď tak že ju zaradí na vrchol fronty, alebo dodrží F\+I\+FO a zaradí kópiu za posledný prvok s rovnakou prioritou.}}. \begin{DoxyRefDesc}{Bugfix}
+\item[\mbox{\hyperlink{bugfix__bugfix000016}{Bugfix}}]\mbox{[}zad\mbox{]} Changed method average to copy\+Top\end{DoxyRefDesc}
+
+\item Privátní metoda {\ttfamily Compare}, která porovná \char`\"{}velikost\char`\"{} dvou kontejnerů, kde velikost je dána počtem prvků, a vrátí hodnotu -\/1,0 nebo 1 (první je kratší, stejné, první je delší). ( {\bfseries{Cerveny Patrik}} )
+\item Privátní metoda {\ttfamily Compare\+Deep}, která porovná kontejnery i podle hodnot {\ttfamily C\+Cell}. Výsledky metod {\ttfamily Compare} a {\ttfamily Compare\+Deep} budou ke své činnosti používat logické operátory kontejneru. ( {\bfseries{Cerveny Patrik}} )
+\end{DoxyItemize}
+\item Budou realizovány metody, pro reverzaci (reverzace je {\bfseries{prehodenie priority prvkov}} tzn. prvok ktorý mal pôvodne najvyššiu prioritu bude mať najnižšiu a naopak a {\bfseries{prehodenie poradia prvkov s rovnakou prioritou}} )\+:
+\begin{DoxyItemize}
+\item umožňující volání {\ttfamily bbb=aaa.\+Reverzuj()}, která mění {\bfseries{prioritnú frontu}} {\ttfamily aaa} na {\bfseries{reverzovanú prioritnú frontu}} {\ttfamily bbb},
+\item umožňující volání {\ttfamily bbb=Reverzuj(aaa)}, která nechává {\bfseries{prioritnú frontu}} {\ttfamily aaa} nezměněnou a vrací (temp objekt) {\bfseries{reverzovanú prioritnú frontu}} {\ttfamily bbb}.
+\end{DoxyItemize}
+\item Použití dynamických dat ve třídě – {\bfseries{předpokládám}}.
+\item Dědění {\bfseries{nepředpokládám}} pouze ve třídě C\+Cell se dědí z \mbox{\hyperlink{class_c_cell_base}{C\+Cell\+Base}},
+\item Použití výjimek -\/ {\bfseries{předpokládám}}.
+\item Ve vlastním projektu se předpokládá i implementace metod vytvářených překladačem implicitně.
+\item Ve třídě bude pro kontrolu korektní práce s pamětí implementována knihovna \href{http://www.uamt.feec.vutbr.cz/~petyovsky/projects/checker/checker.zip}{\texttt{ Checker}}.
+\item Každý z autorů napíše pro tři vybrané metody (nepatřící do stejného bodu zadání) alespoň tři case testy, z nichž alespoň dva nebudou pracovat s implicitně vytvořeným kontejnerem. Jeden z testů od každého autora bude obsahovat i testy alokované paměti (vyberte metodu pracující s pamětí).
+\end{DoxyEnumerate}
+
+~\newline
+~\newline
+
+
+\doxysubsubsection*{Poznámky k řešení (jsou součástí zadání)\+:}
+
+Odvozené třídy {\ttfamily C\+C\+E\+L\+L\+\_\+\+N\+A\+Z\+E\+V\+\_\+\+T\+Y\+PU} vypracujte v projektu C\+Cell, kde je ve funkci {\ttfamily main} demonstrována činnost {\ttfamily \mbox{\hyperlink{namespace_c_cell__bool}{C\+Cell\+\_\+bool}}}. Po odladění je použijte ve vlastním projektu při tvorbě {\bfseries{prioritní fronty}}, kde vytvořte v {\ttfamily main} podobný testovací kód (pro třídu kontejneru) jako je ukázáno v projektu s C\+Cell. Projekt C\+Cell chápejte jako ukázkový projekt, který demonstruje principy práce s C\+Cell, a lineárními seznamy a všemi dodanými třídami. Věřím, že pro Vás bude cennou studnicí vědomostí a zároveň vhodným testovacím {\itshape pískovištěm} k pokusům a experimentům. Proto si jeho činnost prostudujte a snažte se ho pochopit do co nejmenších detailů. Pokud Vám tento testovací projekt přestane fungovat, obnovte poslední fungující verzi z repozitáře a zkuste to znovu. ;-\/) {\itshape Aneb kdo nic nerozbije, ten se nic nenaučí.}
+
+Vytvořená implementace {\bfseries{prioritní fronty}} bude využívat vlastnosti třídy {\ttfamily C\+Cell} a musí umožňovat bezchybný překlad s libovolnou třídou {\ttfamily C\+Cell} (zapouzdřující některý z jednoduchých datových typů) bez nutnosti zásahu do zdrojových textů {\bfseries{prioritní fronty}}!!!! Implementace kontejneru tedy nebude závislá na typu ukládaných hodnot, protože bude využívat pouze definované rozhraní třídy {\ttfamily C\+Cell} (společné pro všechny typy), tak jak je uvedeno v testovacím příkladu. {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}} proto implementujte tak, aby přímo nevyužíval (nevolal) Setter ani Getter metody třídy {\ttfamily C\+Cell}, jejichž hlavička je na zapouzdřujícím typu závislá!!!
+
+Celá hierarchie souboru projektu je patrná na následujícím obrázku. \begin{DoxyNote}{Note}
+{\itshape Nezapomeňte v obrázku upravit názvy tučně označených souborů.}
+\end{DoxyNote}
+
+\begin{DoxyImage}
+\includegraphics[width=\textwidth,height=\textheight/2,keepaspectratio=true]{dot_project_hierarchy}
+\doxyfigcaption{Obr.1 -\/ Nákres hierarchie souborů v projektu}
+\end{DoxyImage}
+
+
+~\newline
+
+
+Vlastní realizace třídy pro {\bfseries{prioritní forntu}} bude rozdělena na hlavičkový a zdrojový soubor ({\bfseries{\mbox{\hyperlink{_c_priority_queue_8h}{C\+Priority\+Queue.\+h}}}}, {\bfseries{\mbox{\hyperlink{_c_priority_queue_8cpp}{C\+Priority\+Queue.\+cpp}}}}). Další zdrojový soubor (\mbox{\hyperlink{main_8cpp}{main.\+cpp}}) bude reprezentovat program demonstrující vlastnosti a použití definované třídy {\bfseries{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}}}}. Všechny zdrojové a hlavičkové soubory budou obsahovat úvodní poznámku o svém názvu, řešitelích...).
+
+Demonstrační program bude realizován jako konzolová aplikace přeložitelná ve Visual C++ (prázdný projekt, přísnost (stupeň) překladu 3 na detekci chybových a varovných hlášení). Snažte se, aby demonstrační program byl napsán tak, aby při činnosti nevyžadoval zásahy obsluhy ani vstupní data z jiných speciálních souborů (s výjimkou operátoru pro standardní vstup). Demonstrační/testovací program bude inicializovat proměnné (v něm definovanými daty nezadávanými uživatelem) a na jejich základě bude demonstrovat činnost třídy a dále zobrazovat data na konzolu, nebo ukládat výsledky do souboru. \mbox{\hyperlink{doc}{Dokumentaci}} výsledného projektu realizujte pomocí nástroje \href{http://www.doxygen.org}{\texttt{ Doxygen}}.
+
+K tomuto odevzdávanému zadání nezapomeňte připsat úvod pro hlavičku (tj. jména řešitelů, název projektu, datum zadání ... budou součástí odevzdávaného souboru)
+
+Pro lepší orientaci uvádíme krátkou motivaci k pojmu třída na odkazu\+: \href{http://www.uamt.feec.vutbr.cz/~richter/vyuka/1920_XPPC/cviceni/motivace_trida.html}{\texttt{ Motivace třída}}.
+
+Pokud Vás trápí nastavení \href{https://en.wikipedia.org/wiki/Test-driven_development}{\texttt{ Unit testů}} ve V\+S2019 zkuste si projít \href{http://www.evernote.com/l/AElAKsn_ps1ONbQRPVcvgmGPXcK76B0P0qs/}{\texttt{ tento postup}}.
+
+~\newline
+~\newline
+
+
+Poslední změna\+: \$\+Date\+:\+: 2021-\/01-\/03\#\$
+
+\begin{DoxyParagraph}{Id}
+\mbox{\hyperlink{_introduction_8md}{Introduction.\+md}} 4311 2021-\/01-\/02 23\+:20\+:52Z xcerni12 
+\end{DoxyParagraph}

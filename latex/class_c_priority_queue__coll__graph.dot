@@ -1,0 +1,12 @@
+digraph "CPriorityQueue"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CPriorityQueue\n|- iSize\l- iInstanceInfo\l|+ isEmpty()\l+ clear()\l+ enqueue()\l+ dequeue()\l+ top()\l+ isPresent()\l+ get()\l+ set()\l+ usage()\l+ copyTop()\l+ getID()\l+ reverse()\l+ sizeOf()\l+ CPriorityQueue()\l+ CPriorityQueue()\l+ CPriorityQueue()\l+ CPriorityQueue()\l+ ~CPriorityQueue()\l+ CPriorityQueue()\l+ CPriorityQueue()\l+ CPriorityQueue()\l+ operator==()\l+ operator!=()\l+ operator-()\l+ operator+()\l+ operator=()\l+ operator size_t()\l+ operator+()\l+ operator+=()\l+ operator-()\l+ operator\<=()\l+ operator\>=()\l+ operator++()\l+ operator--()\l+ Total()\l+ Aktual()\l+ TestStringValueRandom()\l+ TestStringValue0()\l+ TestStringValue1()\l- addAsFirstElement()\l- validate()\l- CPriorityQueue()\l- deepCopyList()\l- Compare()\l- CompareDeep()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="CPriorityQueue class."];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -iHead" ,arrowhead="odiamond"];
+  Node2 [label="{CCell_TWeekDay::CCell\n|- iInstanceInfo\l- iValue\l|+ CCell()\l+ CCell()\l+ CCell()\l+ CCell()\l+ CCell()\l+ ~CCell()\l+ ID()\l+ SetValue()\l+ Value()\l+ operator-()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ operator\<()\l+ operator\>()\l+ TestValue0()\l+ TestStringValue0()\l+ TestValue1()\l+ TestStringValue1()\l+ TestValueRandom()\l+ TestStringValueRandom()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_cell___t_week_day_1_1_c_cell.html",tooltip="CCell class (TWeekDay variant)"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node3 [label="{CCellBase\n|- iInstanceInfo\l- iExtraInt\l|+ CCellBase()\l+ ~CCellBase()\l+ SetNextItem()\l+ NextItem()\l+ SetExtraInt()\l+ ExtraInt()\l+ ID()\l- CCellBase()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_cell_base.html",tooltip="CCellBase class."];
+  Node3 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -iNext" ,arrowhead="odiamond"];
+}

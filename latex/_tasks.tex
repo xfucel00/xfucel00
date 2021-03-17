@@ -1,0 +1,54 @@
+~\newline
+Tento text shrnuje nejčastější chyby a nedorozumnění při realizaci projektu v minulých letech. Přečtěte si proto tento text před odevzdáním a použijte ho ke korekcím vaší práce.
+
+
+\begin{DoxyEnumerate}
+\item Po každé opravě, u všech projektů (C\+Cell, Project) vyřešit poznámky z minulé opravy. Projít stránku Bug a doxygen prikazy bug přepsat na bugfix. Za poznámku z opravy připsat, kdo opravil a jak opravil (tj. jak se poznámka vyřešila -\/ u jednoduchých poznámek nebo obecných upozornění stačí jméno, kdo upravil na bugfix). ~\newline
+~\newline
+
+\item Zadání a realizaci projektu kontrolovat proti původní dodané šabloně zadání a doplnit chybějící metody a prvky. (= konstruktory a destruktor. Možnost zjistit ID a počty prvků třídy. Operátory včetně nečlenského a konverzního. Streamy. Privátní a veřejné metody. Dvojici metod \char`\"{}typu Reverzuj\char`\"{}.) Nejčastější chyby (zatím popsané pro datový typ minulých projektů C\+X\+Item) najdete na -\/ \href{http://www.uamt.feec.vutbr.cz/\%7Erichter/vyuka/1920_XPPC/cviceni/chyby_hlavicka.html}{\texttt{ http\+://www.\+uamt.\+feec.\+vutbr.\+cz/$\sim$richter/vyuka/\+X\+P\+P\+C/cviceni/chyby\+\_\+hlavicka.\+html}}~\newline
+~\newline
+
+\item Projekt musí jít přeložit bez chyb a bez významných varování (warnings). Bude obsahovat knihovnu Check.~\newline
+~\newline
+
+\item Realizujte kontejner pro svůj datový typ C\+Cell, který musí projít testy prvního projektu C\+Cell s originálním main. (tj. změna na C\+Cell pro bool by neměla způsobit problémy v kontejneru).~\newline
+~\newline
+
+\item V~hlavičkovém souboru v definici třídy budou pouze prototypy metod a funkcí (platí pro těla metod s kódem -\/ tj. při finálním odevzdání). Celé metody s těly budou buď ve zdrojovém souboru nebo inline za definicí třídy.~\newline
+~\newline
+
+\item Napište main ve stejném stylu jako u projektu C\+Cell s voláním všech vytvořených metod kontejneru. Část kódu demonstrující vstup z klávesnice dejte do komentáře \char`\"{}//\char`\"{}.~\newline
+~\newline
+
+\item Kde to u parametrů nebo návratových hodnot je možné, bude použita reference. U parametrů které se nemění včetně {\ttfamily this} bude {\ttfamily const}.~\newline
+~\newline
+
+\item Vytvořte požadované testy. Pro každou metodu bude test obsahovat alespoň tři testy (= testový {\ttfamily assert}. Alespoň dva testy budou \char`\"{}významné\char`\"{} tj. budou pracovat s proměnnými naplněnými hodnotami ($>$2) a ne vytvořenými jako prázdné např. implicitními konstruktory).~\newline
+~\newline
+
+\item U tří/čtyř (jeden na člena týmu) testů proveďte i test paměti. U ostatních může být pouze test na funkčnost.~\newline
+~\newline
+
+\item Vytvoření dokumentace pomocí doxygen proběhne bez varování (warnings) (zkuste na příkazovém řádku příkaz {\ttfamily \char`\"{}doxygen 2$>$err.\+txt\char`\"{}} , který uloží do souboru err.\+txt chybová hlášení a na obrazovce ponechá pouze informační texty).~\newline
+~\newline
+
+\item V dokumentaci bude ponecháno zadání z doby opravování -\/ nemazat.~K němu dopište změny na základě poznámek (označení {\itshape bug} pouze změňte na {\itshape bugfix}) a změny, ke kterým jste se rozhodli během realizace.~\newline
+~\newline
+
+\item V dokumentaci popište, co je váš kontejner, definujte jeho chování vůči klíči a hodnotě (= popište koncepci třídy).~Popište vlastnosti a chování metod charakteristických pro daný kontejner (=$>$použití typických jmen metod pro dané operace).~\newline
+~\newline
+
+\item Při formulaci zadání napište dokumentaci pro členy třídy a~u metod popište jejich činnost, funkci argumentů a návratové hodnoty. V další fázi řešení dokumentace musí souhlasit s aktuální verzí zdrojových textů.~\newline
+~\newline
+
+\item Napište hodnocení/závěr, ve kterém popište nedostatky vašeho řešení (Co jste případně nestihli. Proč jste byli nuceni změnit zadáni, hlavičku (oproti odevzdané verzi). Jaký k tomu byl důvod.).~\newline
+~\newline
+
+\item {\bfseries{Všichni členové teamu budou mít srovnatelný a dostatečný počet komitů do svn.}} ~\newline
+~\newline
+\begin{DoxyParagraph}{Id}
+\mbox{\hyperlink{_tasks_8md}{Tasks.\+md}} 2 2020-\/11-\/18 18\+:14\+:19Z petyovsky 
+\end{DoxyParagraph}
+
+\end{DoxyEnumerate}

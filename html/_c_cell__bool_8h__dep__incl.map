@@ -1,0 +1,9 @@
+<map id="CCell_bool.h" name="CCell_bool.h">
+<area shape="rect" id="node1" title="CCell_bool class header." alt="" coords="232,5,327,32"/>
+<area shape="rect" id="node2" href="$_c_cell_8h.html" title="General header for CCell." alt="" coords="247,80,311,107"/>
+<area shape="rect" id="node3" href="$_c_priority_queue_8cpp.html" title="CPriorityQueue class implementation." alt="" coords="5,251,140,278"/>
+<area shape="rect" id="node4" href="$_c_priority_queue_8h.html" title="CPriorityQueue class header." alt="" coords="219,155,340,181"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="Main source." alt="" coords="418,251,493,278"/>
+<area shape="rect" id="node6" href="$_unit_tests_8h.html" title="Unit tests parameters and headers include for class CPriorityQueue." alt="" coords="165,229,394,300"/>
+<area shape="rect" id="node7" href="$_unit_tests_8cpp.html" title="Functionality unit tests for class CPriorityQueue." alt="" coords="158,348,401,419"/>
+</map>

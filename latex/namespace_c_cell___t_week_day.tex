@@ -1,0 +1,252 @@
+\hypertarget{namespace_c_cell___t_week_day}{}\doxysection{C\+Cell\+\_\+\+T\+Week\+Day Namespace Reference}
+\label{namespace_c_cell___t_week_day}\index{CCell\_TWeekDay@{CCell\_TWeekDay}}
+
+
+Namespace for encapsulating of {\ttfamily T\+Week\+Day} variant of \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell}} class.  
+
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell}} class ({\ttfamily T\+Week\+Day} variant) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}} \{ \newline
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a3911190f0a3377219e4aac797ff6db5d}{E\+Monday}} = 0, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a006553d5f36821efe82f83b6f3e8c460}{E\+Tuesday}}, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a6dd6737e1d07a98f751ec1c8d8ad2ca4}{E\+Wednesday}}, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941ae009832e8d597a1e1fd103631dec2c5e}{E\+Thursday}}, 
+\newline
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a5571ed300e2b8fa38f782520fce7e4c7}{E\+Friday}}, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a399305dc69e00b7dc56e53f187c7d646}{E\+Saturday}}, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941ae395d37d9c72e97e94ecb7e12d7b8fdf}{E\+Sunday}}
+ \}
+\begin{DoxyCompactList}\small\item\em Basic definition of enumeration type for representing day of week. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}} \mbox{\hyperlink{namespace_c_cell___t_week_day_a1c1e5e4d8a84b508a2a12ca96811b269}{Check\+Range\+With\+Exception}} (const unsigned a\+Day\+Num)
+\begin{DoxyCompactList}\small\item\em Conversion and range checking function. Convert {\ttfamily unsigned} value to the T\+Week\+Day. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{namespace_c_cell___t_week_day_a96f84cbf157e7965197bb9a3563afe93}{T\+Week\+String\+Name}} (\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}} a\+Week\+Day)
+\begin{DoxyCompactList}\small\item\em Conversion Day number to the Day name. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespace_c_cell___t_week_day_a4757641ef99755338600a7ff357046a1}{operator$<$$<$}} (std\+::ostream \&a\+O\+Stream, const \mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}} \&a\+Week\+Day)
+\begin{DoxyCompactList}\small\item\em Output to the stream operator. ({\itshape serialization}) \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{namespace_c_cell___t_week_day_a59ff348df5944d263b2ca7bc3de4bdc0}{operator$>$$>$}} (std\+::istream \&a\+I\+Stream, \mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}} \&a\+Week\+Day)
+\begin{DoxyCompactList}\small\item\em Input from the stream operator. ({\itshape deserialization}) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+constexpr unsigned \mbox{\hyperlink{namespace_c_cell___t_week_day_a100a3dca374515d700443338d518fe3c}{K\+T\+Week\+Days\+Name\+Max\+Length}} = 11
+\begin{DoxyCompactList}\small\item\em Max length of day name. \end{DoxyCompactList}\item 
+static const char $\ast$const \mbox{\hyperlink{namespace_c_cell___t_week_day_a04f0f73ea16759f45d9fa4d79976179b}{K\+T\+Week\+Days\+Name}} \mbox{[}\mbox{\hyperlink{namespace_c_cell___t_week_day_aef7b0721b4ae1dce9ca94d24626dd6b2}{K\+T\+Week\+Days\+Count}}\mbox{]}
+\begin{DoxyCompactList}\small\item\em Day name definition. \end{DoxyCompactList}\item 
+constexpr unsigned \mbox{\hyperlink{namespace_c_cell___t_week_day_aef7b0721b4ae1dce9ca94d24626dd6b2}{K\+T\+Week\+Days\+Count}} = 7
+\begin{DoxyCompactList}\small\item\em Constant defining numbers of day in the week. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Namespace for encapsulating of {\ttfamily T\+Week\+Day} variant of \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell}} class. 
+
+For selecting this variant of \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell}} class uncomment {\ttfamily using} {\ttfamily namespace} section in the \mbox{\hyperlink{_c_cell_8h}{C\+Cell.\+h}} 
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}\label{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}} 
+\index{CCell\_TWeekDay@{CCell\_TWeekDay}!TWeekDay@{TWeekDay}}
+\index{TWeekDay@{TWeekDay}!CCell\_TWeekDay@{CCell\_TWeekDay}}
+\doxysubsubsection{\texorpdfstring{TWeekDay}{TWeekDay}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+T\+Week\+Day}}}
+
+
+
+Basic definition of enumeration type for representing day of week. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EMonday@{EMonday}!CCell\_TWeekDay@{CCell\_TWeekDay}}\index{CCell\_TWeekDay@{CCell\_TWeekDay}!EMonday@{EMonday}}}\mbox{\Hypertarget{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a3911190f0a3377219e4aac797ff6db5d}\label{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a3911190f0a3377219e4aac797ff6db5d}} 
+E\+Monday&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ETuesday@{ETuesday}!CCell\_TWeekDay@{CCell\_TWeekDay}}\index{CCell\_TWeekDay@{CCell\_TWeekDay}!ETuesday@{ETuesday}}}\mbox{\Hypertarget{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a006553d5f36821efe82f83b6f3e8c460}\label{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a006553d5f36821efe82f83b6f3e8c460}} 
+E\+Tuesday&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EWednesday@{EWednesday}!CCell\_TWeekDay@{CCell\_TWeekDay}}\index{CCell\_TWeekDay@{CCell\_TWeekDay}!EWednesday@{EWednesday}}}\mbox{\Hypertarget{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a6dd6737e1d07a98f751ec1c8d8ad2ca4}\label{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a6dd6737e1d07a98f751ec1c8d8ad2ca4}} 
+E\+Wednesday&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EThursday@{EThursday}!CCell\_TWeekDay@{CCell\_TWeekDay}}\index{CCell\_TWeekDay@{CCell\_TWeekDay}!EThursday@{EThursday}}}\mbox{\Hypertarget{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941ae009832e8d597a1e1fd103631dec2c5e}\label{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941ae009832e8d597a1e1fd103631dec2c5e}} 
+E\+Thursday&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EFriday@{EFriday}!CCell\_TWeekDay@{CCell\_TWeekDay}}\index{CCell\_TWeekDay@{CCell\_TWeekDay}!EFriday@{EFriday}}}\mbox{\Hypertarget{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a5571ed300e2b8fa38f782520fce7e4c7}\label{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a5571ed300e2b8fa38f782520fce7e4c7}} 
+E\+Friday&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ESaturday@{ESaturday}!CCell\_TWeekDay@{CCell\_TWeekDay}}\index{CCell\_TWeekDay@{CCell\_TWeekDay}!ESaturday@{ESaturday}}}\mbox{\Hypertarget{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a399305dc69e00b7dc56e53f187c7d646}\label{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a399305dc69e00b7dc56e53f187c7d646}} 
+E\+Saturday&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ESunday@{ESunday}!CCell\_TWeekDay@{CCell\_TWeekDay}}\index{CCell\_TWeekDay@{CCell\_TWeekDay}!ESunday@{ESunday}}}\mbox{\Hypertarget{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941ae395d37d9c72e97e94ecb7e12d7b8fdf}\label{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941ae395d37d9c72e97e94ecb7e12d7b8fdf}} 
+E\+Sunday&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 30 of file C\+Cell\+\_\+\+T\+Week\+Day.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespace_c_cell___t_week_day_a1c1e5e4d8a84b508a2a12ca96811b269}\label{namespace_c_cell___t_week_day_a1c1e5e4d8a84b508a2a12ca96811b269}} 
+\index{CCell\_TWeekDay@{CCell\_TWeekDay}!CheckRangeWithException@{CheckRangeWithException}}
+\index{CheckRangeWithException@{CheckRangeWithException}!CCell\_TWeekDay@{CCell\_TWeekDay}}
+\doxysubsubsection{\texorpdfstring{CheckRangeWithException()}{CheckRangeWithException()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}} C\+Cell\+\_\+\+T\+Week\+Day\+::\+Check\+Range\+With\+Exception (\begin{DoxyParamCaption}\item[{const unsigned}]{a\+Day\+Num }\end{DoxyParamCaption})}
+
+
+
+Conversion and range checking function. Convert {\ttfamily unsigned} value to the T\+Week\+Day. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a\+Day\+Num} & Number of day \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return T\+Week\+Day value 
+\end{DoxyReturn}
+\begin{DoxyAttention}{Attention}
+Method generate {\ttfamily std\+::range\+\_\+error} exception if argument {\itshape a\+Day\+Num} is out of numbers of the day 
+\end{DoxyAttention}
+
+
+Definition at line 21 of file C\+Cell\+\_\+\+T\+Week\+Day.\+cpp.
+
+\mbox{\Hypertarget{namespace_c_cell___t_week_day_a4757641ef99755338600a7ff357046a1}\label{namespace_c_cell___t_week_day_a4757641ef99755338600a7ff357046a1}} 
+\index{CCell\_TWeekDay@{CCell\_TWeekDay}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!CCell\_TWeekDay@{CCell\_TWeekDay}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily std\+::ostream \& C\+Cell\+\_\+\+T\+Week\+Day\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{a\+O\+Stream,  }\item[{const \mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}} \&}]{a\+Week\+Day }\end{DoxyParamCaption})}
+
+
+
+Output to the stream operator. ({\itshape serialization}) 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a\+O\+Stream} & Output stream \\
+\hline
+\mbox{\texttt{ in}}  & {\em a\+Week\+Day} & Serialized instantion of T\+Week\+Day \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return {\ttfamily std\+::ostream} with serialized a\+Week\+Day 
+\end{DoxyReturn}
+
+
+Definition at line 36 of file C\+Cell\+\_\+\+T\+Week\+Day.\+cpp.
+
+\mbox{\Hypertarget{namespace_c_cell___t_week_day_a59ff348df5944d263b2ca7bc3de4bdc0}\label{namespace_c_cell___t_week_day_a59ff348df5944d263b2ca7bc3de4bdc0}} 
+\index{CCell\_TWeekDay@{CCell\_TWeekDay}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!CCell\_TWeekDay@{CCell\_TWeekDay}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily std\+::istream \& C\+Cell\+\_\+\+T\+Week\+Day\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{a\+I\+Stream,  }\item[{\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}} \&}]{a\+Week\+Day }\end{DoxyParamCaption})}
+
+
+
+Input from the stream operator. ({\itshape deserialization}) 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a\+I\+Stream} & Input stream \\
+\hline
+\mbox{\texttt{ out}}  & {\em a\+Week\+Day} & Place for deserialized instantion of T\+Week\+Day \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return rest of {\ttfamily std\+::istream} 
+\end{DoxyReturn}
+\begin{DoxyAttention}{Attention}
+Method generate {\ttfamily std\+::range\+\_\+error} exception if stream doesn\textquotesingle{}t contains correct name of the day 
+
+Method generate {\ttfamily std\+::runtime\+\_\+error} exception if stream isn\textquotesingle{}t in good state 
+\end{DoxyAttention}
+
+
+Definition at line 42 of file C\+Cell\+\_\+\+T\+Week\+Day.\+cpp.
+
+\mbox{\Hypertarget{namespace_c_cell___t_week_day_a96f84cbf157e7965197bb9a3563afe93}\label{namespace_c_cell___t_week_day_a96f84cbf157e7965197bb9a3563afe93}} 
+\index{CCell\_TWeekDay@{CCell\_TWeekDay}!TWeekStringName@{TWeekStringName}}
+\index{TWeekStringName@{TWeekStringName}!CCell\_TWeekDay@{CCell\_TWeekDay}}
+\doxysubsubsection{\texorpdfstring{TWeekStringName()}{TWeekStringName()}}
+{\footnotesize\ttfamily const char $\ast$ C\+Cell\+\_\+\+T\+Week\+Day\+::\+T\+Week\+String\+Name (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{T\+Week\+Day}}}]{a\+Week\+Day }\end{DoxyParamCaption})}
+
+
+
+Conversion Day number to the Day name. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a\+Week\+Day} & Day enumeration \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return Day name 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file C\+Cell\+\_\+\+T\+Week\+Day.\+cpp.
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespace_c_cell___t_week_day_aef7b0721b4ae1dce9ca94d24626dd6b2}\label{namespace_c_cell___t_week_day_aef7b0721b4ae1dce9ca94d24626dd6b2}} 
+\index{CCell\_TWeekDay@{CCell\_TWeekDay}!KTWeekDaysCount@{KTWeekDaysCount}}
+\index{KTWeekDaysCount@{KTWeekDaysCount}!CCell\_TWeekDay@{CCell\_TWeekDay}}
+\doxysubsubsection{\texorpdfstring{KTWeekDaysCount}{KTWeekDaysCount}}
+{\footnotesize\ttfamily constexpr unsigned C\+Cell\+\_\+\+T\+Week\+Day\+::\+K\+T\+Week\+Days\+Count = 7\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+
+
+Constant defining numbers of day in the week. 
+
+
+
+Definition at line 37 of file C\+Cell\+\_\+\+T\+Week\+Day.\+h.
+
+\mbox{\Hypertarget{namespace_c_cell___t_week_day_a04f0f73ea16759f45d9fa4d79976179b}\label{namespace_c_cell___t_week_day_a04f0f73ea16759f45d9fa4d79976179b}} 
+\index{CCell\_TWeekDay@{CCell\_TWeekDay}!KTWeekDaysName@{KTWeekDaysName}}
+\index{KTWeekDaysName@{KTWeekDaysName}!CCell\_TWeekDay@{CCell\_TWeekDay}}
+\doxysubsubsection{\texorpdfstring{KTWeekDaysName}{KTWeekDaysName}}
+{\footnotesize\ttfamily const char$\ast$ const C\+Cell\+\_\+\+T\+Week\+Day\+::\+K\+T\+Week\+Days\+Name\mbox{[}\mbox{\hyperlink{namespace_c_cell___t_week_day_aef7b0721b4ae1dce9ca94d24626dd6b2}{K\+T\+Week\+Days\+Count}}\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{        \{ \textcolor{stringliteral}{"{}(Monday)"{}}, \textcolor{stringliteral}{"{}(Tuesday)"{}}, \textcolor{stringliteral}{"{}(Wednesday)"{}}, \textcolor{stringliteral}{"{}(Thursday)"{}}, \textcolor{stringliteral}{"{}(Friday)"{}}, \textcolor{stringliteral}{"{}(Saturday)"{}}, \textcolor{stringliteral}{"{}(Sunday)"{}} \}}
+
+\end{DoxyCode}
+
+
+Day name definition. 
+
+
+
+Definition at line 18 of file C\+Cell\+\_\+\+T\+Week\+Day.\+cpp.
+
+\mbox{\Hypertarget{namespace_c_cell___t_week_day_a100a3dca374515d700443338d518fe3c}\label{namespace_c_cell___t_week_day_a100a3dca374515d700443338d518fe3c}} 
+\index{CCell\_TWeekDay@{CCell\_TWeekDay}!KTWeekDaysNameMaxLength@{KTWeekDaysNameMaxLength}}
+\index{KTWeekDaysNameMaxLength@{KTWeekDaysNameMaxLength}!CCell\_TWeekDay@{CCell\_TWeekDay}}
+\doxysubsubsection{\texorpdfstring{KTWeekDaysNameMaxLength}{KTWeekDaysNameMaxLength}}
+{\footnotesize\ttfamily constexpr unsigned C\+Cell\+\_\+\+T\+Week\+Day\+::\+K\+T\+Week\+Days\+Name\+Max\+Length = 11\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+
+
+Max length of day name. 
+
+
+
+Definition at line 16 of file C\+Cell\+\_\+\+T\+Week\+Day.\+cpp.
+

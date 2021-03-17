@@ -1,0 +1,7 @@
+<map id="CPriorityQueue.h" name="CPriorityQueue.h">
+<area shape="rect" id="node1" title="CPriorityQueue class header." alt="" coords="141,5,263,32"/>
+<area shape="rect" id="node2" href="$_c_priority_queue_8cpp.html" title="CPriorityQueue class implementation." alt="" coords="5,102,140,129"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="Main source." alt="" coords="165,102,239,129"/>
+<area shape="rect" id="node4" href="$_unit_tests_8h.html" title="Unit tests parameters and headers include for class CPriorityQueue." alt="" coords="263,80,493,151"/>
+<area shape="rect" id="node5" href="$_unit_tests_8cpp.html" title="Functionality unit tests for class CPriorityQueue." alt="" coords="257,199,499,269"/>
+</map>

@@ -1,0 +1,136 @@
+\hypertarget{_c_priority_queue_8cpp}{}\doxysection{C\+Priority\+Queue.\+cpp File Reference}
+\label{_c_priority_queue_8cpp}\index{CPriorityQueue.cpp@{CPriorityQueue.cpp}}
+
+
+\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} class implementation.  
+
+
+{\ttfamily \#include \char`\"{}C\+Priority\+Queue.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}C\+Cell.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$array$>$}\newline
+Include dependency graph for C\+Priority\+Queue.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_c_priority_queue_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_c_cell__tools}{C\+Cell\+\_\+tools}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{_c_priority_queue_8cpp_a9b34cd06cb80b6a0a6b07cbafc3360f3}{operator$<$$<$}} (std\+::ostream \&a\+O\+Stream, const \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \&a\+Queue)
+\item 
+std\+::istream \& \mbox{\hyperlink{_c_priority_queue_8cpp_a870477ae3a2bdb6b34d6c2f2ddafd298}{operator$>$$>$}} (std\+::istream \&a\+I\+Stream, \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \&a\+Queue)
+\item 
+\mbox{\hyperlink{_c_cell_8h_ada4c42e7d61f12c012eca9b48bfa125b}{C\+Cell}} $\ast$ \mbox{\hyperlink{namespace_c_cell__tools_aa21306bda597e46c1a475f84277af673}{C\+Cell\+\_\+tools\+::deep\+Copy\+List\+Remainder}} (const \mbox{\hyperlink{_c_cell_8h_ada4c42e7d61f12c012eca9b48bfa125b}{C\+Cell}} $\ast$a\+Cell)
+\begin{DoxyCompactList}\small\item\em deep\+Copy\+List\+Remainder method \+: controls C\+Cell with nullptr \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_c_cell_8h_ada4c42e7d61f12c012eca9b48bfa125b}{C\+Cell}} $\ast$ \mbox{\hyperlink{namespace_c_cell__tools_a0bea387d01b51dfd43a72b8b11db6eda}{C\+Cell\+\_\+tools\+::merge\+Sort\+List}} (\mbox{\hyperlink{_c_cell_8h_ada4c42e7d61f12c012eca9b48bfa125b}{C\+Cell}} $\ast$a\+Cell, \mbox{\hyperlink{_c_cell_8h_ada4c42e7d61f12c012eca9b48bfa125b}{C\+Cell}} $\ast$b\+Cell)
+\begin{DoxyCompactList}\small\item\em merge\+Sort\+List method \+: sorts two linked lists by priority \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \mbox{\hyperlink{_c_priority_queue_8cpp_a84ec82b7f70be70b43f40197a48efee3}{operator+}} (const \mbox{\hyperlink{_c_cell_8h_ada4c42e7d61f12c012eca9b48bfa125b}{C\+Cell}} \&a\+Cell, const \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \&a\+Queue)
+\item 
+\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \mbox{\hyperlink{_c_priority_queue_8cpp_af02d533d69fd1d72d4a349578781be3d}{reverse}} (const \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \&a\+Queue)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} class implementation. 
+
+File contain \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} class \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} implementation. \begin{DoxyAuthor}{Authors}
+
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{Id}
+\mbox{\hyperlink{_c_priority_queue_8cpp}{C\+Priority\+Queue.\+cpp}} 4632 2021-\/01-\/03 19\+:15\+:05Z xcerni12 
+\end{DoxyParagraph}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_c_priority_queue_8cpp_a84ec82b7f70be70b43f40197a48efee3}\label{_c_priority_queue_8cpp_a84ec82b7f70be70b43f40197a48efee3}} 
+\index{CPriorityQueue.cpp@{CPriorityQueue.cpp}!operator+@{operator+}}
+\index{operator+@{operator+}!CPriorityQueue.cpp@{CPriorityQueue.cpp}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{_c_cell_8h_ada4c42e7d61f12c012eca9b48bfa125b}{C\+Cell}} \&}]{a\+Cell,  }\item[{const \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \&}]{a\+Queue }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} instance containg values from original queue with enqueued C\+Cell 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Fucela Peter 
+\end{DoxyAuthor}
+
+
+Definition at line 466 of file C\+Priority\+Queue.\+cpp.
+
+\mbox{\Hypertarget{_c_priority_queue_8cpp_a9b34cd06cb80b6a0a6b07cbafc3360f3}\label{_c_priority_queue_8cpp_a9b34cd06cb80b6a0a6b07cbafc3360f3}} 
+\index{CPriorityQueue.cpp@{CPriorityQueue.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!CPriorityQueue.cpp@{CPriorityQueue.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{a\+O\+Stream,  }\item[{const \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \&}]{a\+Queue }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Bugfix}
+\item[\mbox{\hyperlink{bugfix__bugfix000009}{Bugfix}}]\mbox{[}hla\mbox{]} ctor is not explicit anymore \end{DoxyRefDesc}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a\+O\+Stream} & Output stream \\
+\hline
+\mbox{\texttt{ in}}  & {\em a\+Queue} & Serialized instantion of \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return {\ttfamily std\+::ostream} with serialized Value 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Fucela Peter 
+\end{DoxyAuthor}
+
+
+Definition at line 208 of file C\+Priority\+Queue.\+cpp.
+
+\mbox{\Hypertarget{_c_priority_queue_8cpp_a870477ae3a2bdb6b34d6c2f2ddafd298}\label{_c_priority_queue_8cpp_a870477ae3a2bdb6b34d6c2f2ddafd298}} 
+\index{CPriorityQueue.cpp@{CPriorityQueue.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!CPriorityQueue.cpp@{CPriorityQueue.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{a\+I\+Stream,  }\item[{\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \&}]{a\+Queue }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a\+I\+Stream} & Input stream \\
+\hline
+\mbox{\texttt{ out}}  & {\em a\+Queue} & Place for deserialized instantion of \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return rest of {\ttfamily std\+::istream} 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Fucela Peter 
+\end{DoxyAuthor}
+
+
+Definition at line 222 of file C\+Priority\+Queue.\+cpp.
+
+\mbox{\Hypertarget{_c_priority_queue_8cpp_af02d533d69fd1d72d4a349578781be3d}\label{_c_priority_queue_8cpp_af02d533d69fd1d72d4a349578781be3d}} 
+\index{CPriorityQueue.cpp@{CPriorityQueue.cpp}!reverse@{reverse}}
+\index{reverse@{reverse}!CPriorityQueue.cpp@{CPriorityQueue.cpp}}
+\doxysubsubsection{\texorpdfstring{reverse()}{reverse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} reverse (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} \&}]{a\+Queue }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a\+Queue} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_c_priority_queue}{C\+Priority\+Queue}} instance with reversed order of values 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Fucela Peter 
+\end{DoxyAuthor}
+
+
+Definition at line 485 of file C\+Priority\+Queue.\+cpp.
+

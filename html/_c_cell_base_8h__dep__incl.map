@@ -1,0 +1,15 @@
+<map id="CCellBase.h" name="CCellBase.h">
+<area shape="rect" id="node1" title="CCellBase class header." alt="" coords="297,5,392,32"/>
+<area shape="rect" id="node2" href="$_c_cell__bool_8h.html" title="CCell_bool class header." alt="" coords="109,80,204,107"/>
+<area shape="rect" id="node9" href="$_c_cell__float_8h.html" title="CCell_float class header." alt="" coords="228,80,323,107"/>
+<area shape="rect" id="node10" href="$_c_cell___t_color_r_g_b_8h.html" title="CCell_TColorRGB class header." alt="" coords="347,80,483,107"/>
+<area shape="rect" id="node12" href="$_c_cell___t_week_day_8h.html" title="CCell_TWeekDay class header." alt="" coords="508,80,643,107"/>
+<area shape="rect" id="node3" href="$_c_cell_8h.html" title="General header for CCell." alt="" coords="247,155,311,181"/>
+<area shape="rect" id="node4" href="$_c_priority_queue_8cpp.html" title="CPriorityQueue class implementation." alt="" coords="5,326,140,353"/>
+<area shape="rect" id="node5" href="$_c_priority_queue_8h.html" title="CPriorityQueue class header." alt="" coords="219,229,340,256"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="Main source." alt="" coords="418,326,493,353"/>
+<area shape="rect" id="node7" href="$_unit_tests_8h.html" title="Unit tests parameters and headers include for class CPriorityQueue." alt="" coords="165,304,394,375"/>
+<area shape="rect" id="node8" href="$_unit_tests_8cpp.html" title="Functionality unit tests for class CPriorityQueue." alt="" coords="158,423,401,493"/>
+<area shape="rect" id="node11" href="$_c_cell___t_color_r_g_b_8cpp.html" title="CCell_TColorRGB class source." alt="" coords="337,155,488,181"/>
+<area shape="rect" id="node13" href="$_c_cell___t_week_day_8cpp.html" title="CCell_TWeekDay class source." alt="" coords="513,155,662,181"/>
+</map>

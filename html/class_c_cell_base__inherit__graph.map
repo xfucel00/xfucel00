@@ -1,0 +1,7 @@
+<map id="CCellBase" name="CCellBase">
+<area shape="rect" id="node1" title="CCellBase class." alt="" coords="349,5,463,215"/>
+<area shape="rect" id="node2" href="$class_c_cell__bool_1_1_c_cell.html" title="CCell class (bool variant)" alt="" coords="5,263,188,648"/>
+<area shape="rect" id="node3" href="$class_c_cell__float_1_1_c_cell.html" title="CCell class (float variant)" alt="" coords="212,263,395,648"/>
+<area shape="rect" id="node4" href="$class_c_cell___t_color_r_g_b_1_1_c_cell.html" title="CCell class (TColorRGB variant)" alt="" coords="419,263,601,648"/>
+<area shape="rect" id="node5" href="$class_c_cell___t_week_day_1_1_c_cell.html" title="CCell class (TWeekDay variant)" alt="" coords="625,263,808,648"/>
+</map>

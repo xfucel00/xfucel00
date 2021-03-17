@@ -1,0 +1,87 @@
+\hypertarget{_c_cell___t_week_day_8h}{}\doxysection{C\+Cell\+\_\+\+T\+Week\+Day.\+h File Reference}
+\label{_c_cell___t_week_day_8h}\index{CCell\_TWeekDay.h@{CCell\_TWeekDay.h}}
+
+
+\mbox{\hyperlink{namespace_c_cell___t_week_day}{C\+Cell\+\_\+\+T\+Week\+Day}} class header.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$stdexcept$>$}\newline
+{\ttfamily \#include $<$typeinfo$>$}\newline
+{\ttfamily \#include $<$utility$>$}\newline
+{\ttfamily \#include \char`\"{}Class\+Info.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}C\+Cell\+Base.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}check.\+h\char`\"{}}\newline
+Include dependency graph for C\+Cell\+\_\+\+T\+Week\+Day.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_c_cell___t_week_day_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_c_cell___t_week_day_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+C\+Cell}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell}} class ({\ttfamily T\+Week\+Day} variant) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_c_cell___t_week_day}{C\+Cell\+\_\+\+T\+Week\+Day}}
+\begin{DoxyCompactList}\small\item\em Namespace for encapsulating of {\ttfamily T\+Week\+Day} variant of \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell}} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+T\+Week\+Day}} \{ \newline
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a3911190f0a3377219e4aac797ff6db5d}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+E\+Monday}} = 0, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a006553d5f36821efe82f83b6f3e8c460}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+E\+Tuesday}}, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a6dd6737e1d07a98f751ec1c8d8ad2ca4}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+E\+Wednesday}}, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941ae009832e8d597a1e1fd103631dec2c5e}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+E\+Thursday}}, 
+\newline
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a5571ed300e2b8fa38f782520fce7e4c7}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+E\+Friday}}, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941a399305dc69e00b7dc56e53f187c7d646}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+E\+Saturday}}, 
+\mbox{\hyperlink{namespace_c_cell___t_week_day_a3ce54f9f1c596ebc8ecd0d916dbfe941ae395d37d9c72e97e94ecb7e12d7b8fdf}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+E\+Sunday}}
+ \}
+\begin{DoxyCompactList}\small\item\em Basic definition of enumeration type for representing day of week. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+T\+Week\+Day \mbox{\hyperlink{namespace_c_cell___t_week_day_a1c1e5e4d8a84b508a2a12ca96811b269}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+Check\+Range\+With\+Exception}} (const unsigned a\+Day\+Num)
+\begin{DoxyCompactList}\small\item\em Conversion and range checking function. Convert {\ttfamily unsigned} value to the T\+Week\+Day. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{namespace_c_cell___t_week_day_a96f84cbf157e7965197bb9a3563afe93}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+T\+Week\+String\+Name}} (T\+Week\+Day a\+Week\+Day)
+\begin{DoxyCompactList}\small\item\em Conversion Day number to the Day name. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{namespace_c_cell___t_week_day_a4757641ef99755338600a7ff357046a1}{C\+Cell\+\_\+\+T\+Week\+Day\+::operator$<$$<$}} (std\+::ostream \&a\+O\+Stream, const T\+Week\+Day \&a\+Week\+Day)
+\begin{DoxyCompactList}\small\item\em Output to the stream operator. ({\itshape serialization}) \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{namespace_c_cell___t_week_day_a59ff348df5944d263b2ca7bc3de4bdc0}{C\+Cell\+\_\+\+T\+Week\+Day\+::operator$>$$>$}} (std\+::istream \&a\+I\+Stream, T\+Week\+Day \&a\+Week\+Day)
+\begin{DoxyCompactList}\small\item\em Input from the stream operator. ({\itshape deserialization}) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+constexpr unsigned \mbox{\hyperlink{namespace_c_cell___t_week_day_aef7b0721b4ae1dce9ca94d24626dd6b2}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+K\+T\+Week\+Days\+Count}} = 7
+\begin{DoxyCompactList}\small\item\em Constant defining numbers of day in the week. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{namespace_c_cell___t_week_day}{C\+Cell\+\_\+\+T\+Week\+Day}} class header. 
+
+File contain \mbox{\hyperlink{class_c_cell___t_week_day_1_1_c_cell}{C\+Cell\+\_\+\+T\+Week\+Day\+::\+C\+Cell}} definition. \begin{DoxyWarning}{Warning}
+Don\textquotesingle{}t modify this file 
+\end{DoxyWarning}
+\begin{DoxyAuthor}{Author}
+Petyovsky, Richter 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+2020 
+\end{DoxyVersion}
+\begin{DoxyParagraph}{Id}
+\mbox{\hyperlink{_c_cell___t_week_day_8h}{C\+Cell\+\_\+\+T\+Week\+Day.\+h}} 3 2020-\/11-\/18 18\+:15\+:27Z petyovsky 
+\end{DoxyParagraph}

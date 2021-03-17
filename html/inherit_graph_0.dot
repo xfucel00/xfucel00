@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CCell_TColorRGB::TColorRGB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_c_cell___t_color_r_g_b_1_1_t_color_r_g_b.html",tooltip="Basic definition of struct for representing RGB colors as int values."];
+}
